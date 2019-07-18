@@ -60,7 +60,7 @@ public class CidadeDAOTest {
 	@Test
 	@Ignore
 	public void excluir(){
-		Long codigo = 7L;
+		Long codigo = 2L;
 		
 		CidadeDAO cidadeDAO = new CidadeDAO();
 		Cidade cidade = cidadeDAO.buscar(codigo);
