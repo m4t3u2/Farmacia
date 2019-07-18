@@ -45,7 +45,7 @@ public class CidadeDAOTest {
 	@Test
 	@Ignore
 	public void buscar(){
-		Long codigo = 7L;
+		Long codigo = 1L;
 		
 		CidadeDAO cidadeDAO = new CidadeDAO();
 		Cidade cidade = cidadeDAO.buscar(codigo);
